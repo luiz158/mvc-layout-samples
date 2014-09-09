@@ -29,17 +29,6 @@
 			</releases>
 		</repository>
 
-		<repository>
-			<id>nexus</id>
-			<name>cyberdis_bj_nexus</name>
-			<url>http://gitlab.handsondelivery.net/nexus/content/groups/public/</url>
-			<releases>
-				<updatePolicy>always</updatePolicy>
-			</releases>
-			<snapshots>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</repository>
 	</repositories>
 
 	<pluginRepositories>
@@ -60,20 +49,6 @@
 		</pluginRepository>
 
 
-		<pluginRepository>
-			<id>jboss-public-repository-group</id>
-			<name>JBoss PublicMavenRepository Group</name>
-			<url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
-			<layout>default</layout>
-			<releases>
-				<enabled>true</enabled>
-				<updatePolicy>never</updatePolicy>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>never</updatePolicy>
-			</snapshots>
-		</pluginRepository>
 	</pluginRepositories>
 
 	<build>
